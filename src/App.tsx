@@ -6,9 +6,13 @@ interface ValidationResult {
   message: string;
   location?: string;
 }
-
-
-
+interface SchematronExample {
+  name: string;
+  description: string;
+  rules: string;
+  sampleXml: string;
+  category: 'general' | 'ihe';
+}
 
 const schematronExamples: SchematronExample[] = [
   {
