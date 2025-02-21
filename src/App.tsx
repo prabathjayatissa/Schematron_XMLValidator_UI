@@ -13,7 +13,7 @@ interface SchematronExample {
   sampleXml: string;
   category: 'general' | 'ihe';
 }
-
+ 
 const schematronExamples: SchematronExample[] = [
   {
     name: "Required Elements",
